@@ -1,6 +1,6 @@
 # artistfinder
 
-> Proyecto del Curso de Introduccion a Vue.js de Platzi
+> Pequeño buscador de artistas por país, desarrollado en Vue JS.
 
 ## Build Setup
 
