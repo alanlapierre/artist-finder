@@ -13109,7 +13109,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('img', {
     attrs: {
-      "src": "assets/logo.png"
+      "src": "https://alanlapierre.github.io/artist-finder/assets/logo.png"
     }
   }), _c('h1', [_vm._v("ArtistFinder")]), _c('select', {
     directives: [{
