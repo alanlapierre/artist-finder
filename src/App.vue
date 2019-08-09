@@ -1,5 +1,5 @@
 <template lang="pug">
- #app
+v-app
   img(src='./assets/logo.png')
   h1 ArtistFinder
   select(v-model="selectedCountry")
