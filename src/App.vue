@@ -1,12 +1,15 @@
 <template lang="pug">
-v-app
-  img(src='./assets/logo.png')
-  h1 ArtistFinder
-  select(v-model="selectedCountry")
-    option(v-for="country in countries", :value="country.value") {{ country.name }}
-  spinner(v-show="loading")
-  ul
-    artist(v-for="artist in artists" v-bind:artist="artist" v-bind:key="artist.mbid")
+v-app.mt-0(dark)
+  v-container
+    img(src='./assets/logo.png')
+    h1.display-3.white--text ArtistFinder
+      v-select(:items="countries" v-model="selectedCountry" label="Seleccione el país" single-line)
+    h1.display-2.white--text Seleccione un país del listado para ver los artistas TOP.
+    
+    spinner(v-show="loading")
+    v-layout.mt-3(row, wrap)
+      v-flex(v-for="artist in artists" v-bind:key="artist.mbid" xs12, sm6, md2)
+        artist(v-bind:artist="artist")
 </template>
 
 <script>
@@ -22,9 +25,9 @@ export default {
       artists: [],
       selectedCountry:'argentina',
       countries: [
-        { name: 'Argentina', value: 'argentina'},
-        { name: 'Colombia', value: 'colombia'},
-        { name: 'España', value: 'spain'}
+        { text: 'Argentina', value: 'argentina'},
+        { text: 'Colombia', value: 'colombia'},
+        { text: 'España', value: 'spain'}
       ]
     }
   },

@@ -1,7 +1,8 @@
 <template lang="pug">
-  li.artist
-    h2: a(:href="artist.url" target="_blank") {{ artist.name }}
-    img(:src="artist.image[2]['#text']")
+v-card.artist.ma-3
+  v-card-media.ma-2(:src="artist.image[2]['#text']")
+  v-card-actions
+    v-btn(flat color="orange" :href="artist.url" target="_blank") {{ artist.name }}
 </template>
 
 <script>
@@ -10,9 +11,12 @@ export default {
   props: [ 'artist' ]
 }
 </script>
-
-<style lang="stylus" scoped>
-li.artist
-  display block
-  margin 10px 0
+<style lang="stylus">
+.artist
+  cursor pointer
+  transition .15s all ease-in-out
+  &:hover
+    transform scale(1.1)
 </style>
+
+
