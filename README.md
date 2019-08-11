@@ -14,7 +14,7 @@ El ejemplo es una pequeña app desarrollada en **Vue JS 2.X**. El objetivo fue c
 * Ejecutar **npm install** en el raíz del proyecto.
 * Ejecutar **npm run dev** para lanzar la app en el navegador.
 
-[ENTRA AQUÍ PARA VER LA APP EN FUNCIONAMIENTO](https://alanlapierre.github.io/artist-finder/){:target="_blank"}
+[ENTRA AQUÍ PARA VER LA APP EN FUNCIONAMIENTO](https://alanlapierre.github.io/artist-finder/)
 
 Licencia MIT
 ----
