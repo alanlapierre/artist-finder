@@ -1,7 +1,7 @@
 <template lang="pug">
 v-app.mt-0(dark)
   v-container
-    // img(src='./assets/logo.png')
+    img(src='dist/logo.png')
     h1.display-3.white--text ArtistFinder
       v-select(:items="countries" v-model="selectedCountry" label="Seleccione el país" single-line)
     h1.display-2.white--text Seleccione un país del listado para ver los artistas TOP.
