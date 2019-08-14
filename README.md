@@ -6,6 +6,8 @@ El ejemplo es una pequeña app desarrollada en **Vue JS 2.X**. El objetivo fue c
 
 * **Vuetify** : Se utiliza tanto por el **sistema de grillas basado en Flex-box**, como para lograr un estilo **material design**.
 * **API Last FM** : Se utiliza para conseguir el listado de artistas a mostrar. Pueden verse más detalles sobre el **API para desarrolladores** [aquí](https://www.last.fm/api/).
+* **PUG**: Se utiliza para simplificar la escritura del HTML, puede verse mas información sobre esto [aquí](https://pugjs.org/api/getting-started.html).
+* **Stylus**: Se utiliza como preprocesador CSS, para no utilizar **SASS** o CSS puro.
 
 ### Para probar el código:
 
