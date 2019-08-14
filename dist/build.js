@@ -39130,7 +39130,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "dark": "dark"
     }
-  }, [_c('v-container', [_c('h1', {
+  }, [_c('v-container', [_c('img', {
+    attrs: {
+      "src": "dist/logo.png"
+    }
+  }), _c('h1', {
     staticClass: "display-3 white--text"
   }, [_vm._v("ArtistFinder"), _c('v-select', {
     attrs: {
