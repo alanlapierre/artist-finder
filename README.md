@@ -19,7 +19,6 @@ El ejemplo es una pequeña app desarrollada en **Vue JS 2.X**. El objetivo fue c
 
 [ENTRA AQUÍ PARA VER LA APP EN FUNCIONAMIENTO](https://alanlapierre.github.io/artist-finder/)
 
-![ArtistFinder homepage](https://github.com/alanlapierre/artist-finder/blob/master/src/assets/readme.png)
 
 ### Nota:
 Desde hace algún tiempo Last FM no entrega la imagen a mostrar en el listado de artistas. En su lugar utilizan una imagen genérica para todos, supongo que esto es algo que van a solucionar a la brevedad.
